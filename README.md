@@ -1,6 +1,6 @@
-# postal-code
+# Get Indonesian Postal Code
 
-FIXME: description
+This is a clojure code made to get all the postal code from kodepos.nomor.net
 
 ## Installation
 
