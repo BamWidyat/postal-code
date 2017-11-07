@@ -1,36 +1,33 @@
 # Get Indonesian Postal Code
 
-This is a clojure code made to get all the postal code from kodepos.nomor.net
-
-## Installation
-
-Download from http://example.com/FIXME.
+This is a clojure code made to get all the postal code from [kodepos.nomor.net](http://kodepos.nomor.net).
 
 ## Usage
+1. Install latest version of Java
+2. Install [leiningen](https://leiningen.org/).
+3. Open terminal, move to folder directory and run this command
+```
+lein repl
+```
 
-FIXME: explanation
+## Functions
 
-    $ java -jar postal-code-0.1.0-standalone.jar [args]
+To get all the province number list use
+```clj
+(get-province-list)
+```
 
-## Options
+To get all postal code from desired province use
+```clj
+(get-postcode-per-province <province-number>)
+```
 
-FIXME: listing of options this app accepts.
+To get all Indonesian postal code use
+```clj
+(get-all-postcode)
+```
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+The postal code will be exported as CSV file in the following directory
+```
+postal-code/src/
+```
