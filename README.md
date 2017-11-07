@@ -21,7 +21,7 @@ To get all the province number list use
 
 To get all postal code from desired province use
 ```clj
-(get-postcode-per-province <province-number>)
+(get-postcode-per-province [province-number])
 ```
 
 To get all Indonesian postal code use
