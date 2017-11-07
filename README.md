@@ -31,4 +31,4 @@ To get all Indonesian postal code use
 
 ## Exported File
 
-The postal code will be exported as CSV file in the `~/postal-code/src/postal_code` directory.
+The postal code will be exported as CSV file in the ``~/postal-code/src/postal_code`` directory.
