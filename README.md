@@ -1,6 +1,7 @@
-# Get Indonesian Postal Code
+# Indonesian Postal Code
 
 This is a clojure code made to get all the postal code from [kodepos.nomor.net](http://kodepos.nomor.net).
+
 
 ## Usage
 1. Install latest version of Java
@@ -9,6 +10,7 @@ This is a clojure code made to get all the postal code from [kodepos.nomor.net](
 ```
 lein repl
 ```
+
 
 ## Functions
 
@@ -27,7 +29,6 @@ To get all Indonesian postal code use
 (get-all-postcode)
 ```
 
-The postal code will be exported as CSV file in the following directory
-```
-postal-code/src/
-```
+## Exported File
+
+The postal code will be exported as CSV file in the postal-code/src/ directory.
